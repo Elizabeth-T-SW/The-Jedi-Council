@@ -1,0 +1,14 @@
+# ESTE ES UN JUEGO PARA ADIVINAR EL NUMERO SECRETO
+
+numero_secreto = 4
+intentos = 0
+
+while intentos < 3:
+    numero_dado = int(input("Decí un número del 0 al 9: "))
+    intentos += 1
+    if numero_dado == numero_secreto:
+        print("Ganaste!!!")
+        break
+else:
+    print("Perdiste")
+    
