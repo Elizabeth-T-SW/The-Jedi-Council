@@ -1,0 +1,20 @@
+# ESTE PROGRAMA PIDE AL USUARIO UN NOMBRE DE ENTRE 6 Y 12 CARACTERES QUE CONTENGA SOLO LETRAS Y NUMEROS. 
+# SI EL NOMBRE NO SE AJUSTA A LOS PARAMETROS, LE AVISA Y LE DA OTRA OPORTUNIDAD
+
+while True:
+    nombre = input("Ingresá tu nombre de usuario: ")
+    if len(nombre) < 6:
+        print("El nombre debe tener al menos 6 caracteres.")
+    elif len(nombre) > 12:
+        print("El nombre debe tener como máximo 12 caracteres.")
+    elif nombre.isalnum() == False:
+        print("El nombre solo puede tener letras y números")
+    else:
+        print("True")
+        break
+    
+     
+    
+    
+
+
