@@ -1,0 +1,21 @@
+# ESTE ES UN SENCILLO CHAT BOT PARA CHATEAR SOBRE TU PERSONAJE DE FICCION FAVORITO
+
+nombre_bot = input("¡Hola! Todavía no tengo un nombre. ¿Cómo te gustaría llamarme? ").title()
+print("Genial. Así que me llamo", nombre_bot)
+nombre_usuario = input("¿Y vos cómo te llamás? ").title()
+print("¡ Hola",nombre_usuario,"! Gusto en conocerte = )")
+print("Hablemos de tu personaje de ficción favorito")
+personaje = input("¿Cómo se llama? ").title()
+print("Definitivamente",personaje,"es genial")
+disfraz = input("¿Alguna vez te disfrazaste como ese personaje? ").lower()
+if disfraz == "si":
+    print("Debe haber sido sóper divertido!!")
+else:
+    print("Tranqui, nunca es tarde!!")
+input("Y contame, ¿qué es lo que más te gusta de ese personaje? ")
+print("Mmmm, interesante.")
+input("¡En qué te gustaría parecerte? ")
+print("Seguro lo vas a lograr!! Yo creo en vos!!")
+print("Bueno",nombre_usuario,"me encantó hablar con vos, sos muy genial. Seguro nos vamos a volver a ver y seguimos la charla = )")
+despedida = input(" ")
+print("Chau!")
