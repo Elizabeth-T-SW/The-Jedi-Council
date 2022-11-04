@@ -1,0 +1,7 @@
+temperatura_ingresada = int(input("Ingresá una temperatura: "))
+sistema = input("Ingresá F para Farenheit o C para Centígrados: ").upper()
+
+if sistema == "F":
+    print(temperatura_ingresada,"grados F son",(temperatura_ingresada - 15) / 2, "grados C")
+elif sistema == "C":
+    print(temperatura_ingresada,"grados C son",temperatura_ingresada * 2 + 15, "grados F")
