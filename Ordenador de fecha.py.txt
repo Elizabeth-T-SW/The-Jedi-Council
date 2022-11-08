@@ -1,0 +1,7 @@
+# ESTE PROGRAMA LE PIDE AL USUARIO UNA FECHA CON 8 DÍGITOS SIN SEPARAR, Y SE LO DEVUELVE SEPARADO POR BARRAS.
+
+numero = int(input("Ingresa 8 numeros que representen una fecha: 2 dígitos para el día, 2 para el mes y 4 para el año. Ej: 20031976. El sistema te lo devolverá separado por barras:  "))
+dia = numero // 1000000
+mes = numero // 10000 % 100
+año = numero % 10000
+print(dia,"/",mes,"/",año)
