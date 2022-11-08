@@ -1,0 +1,23 @@
+print("""
+LISTA DE PRECIOS:
+
+PORCIÓN DE MUZARELA: $95
+PORCIÓN DE MORRÓN: $115
+PORCIÓN DE ANANÁ: 130
+
+HACÉ TU PEDIDO:
+""")
+
+porcion_muza = int(input("Cantidad porciones de muza: "))
+precio_muza = 95
+total_muza = porcion_muza * precio_muza
+
+porcion_morron = int(input("Cantidad porciones de morrón: "))
+precio_morron = 115
+total_morron = porcion_morron * precio_morron
+
+porcion_anana = int(input("Cantidad porciones de ananá: "))
+precio_anana = 130
+total_anana = porcion_anana * precio_anana
+
+print("El total es: $", total_muza + total_morron + total_anana)
