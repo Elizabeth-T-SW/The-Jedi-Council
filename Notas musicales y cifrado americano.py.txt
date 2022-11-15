@@ -1,0 +1,14 @@
+print("Este programa te muestra las notas musicales y su equivalente en cifrado americano.")
+print("Ingresá el nombre de la nota, o el cifrado americano, y verás su equivalencia.")
+
+cifrado_americano = {"C":"DO", "D":"RE", "E":"MI", "F":"FA", "G":"SOL", "A":"LA", "B":"SI"}
+notas_musicales = {"DO":"C", "RE":"D", "MI":"E", "FA":"F", "SOL":"G", "LA":"A", "SI":"B"}
+
+ingreso = input("Buscar la equivalencia de: ").upper()
+
+if ingreso in cifrado_americano:
+    print(cifrado_americano.get(ingreso))
+elif ingreso in notas_musicales:
+    print(notas_musicales.get(ingreso))
+elif ingreso not in cifrado_americano or nocctas_musicales:
+    print("Algo salio mal. Intentalo de nuevo.")
