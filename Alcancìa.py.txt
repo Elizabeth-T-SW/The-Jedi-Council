@@ -1,0 +1,7 @@
+meta_ahorro = 500
+dolares_ahorrados = 0
+while dolares_ahorrados < 500:
+    pregunta = float(input("Cuántos dòlares querés ahorrar? "))
+    dolares_ahorrados = dolares_ahorrados + pregunta
+else:
+    print("Meta alcanzada! Ya ahorraste ", dolares_ahorrados, "dòlares")
